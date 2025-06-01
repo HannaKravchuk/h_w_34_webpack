@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #f7e064, #fcd34d);
+  font-family: 'Comic Sans MS', 'Comic Neue', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+img {
+  max-width: 400px;
+  height: auto;
+  border: 7px solid #fff;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.3);
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05) rotate(2deg);
+}
